@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  background-color: #efefef;
+  border: 1px solid #ddd;
+  padding: 0.4rem 0.8rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0 0 1rem;
+}
+
+span {
+  width: 200px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.one {
+  text-align: right;
+}
+.two {
+  text-align: left;
+}
